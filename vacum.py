@@ -16,9 +16,37 @@ Probility = random.random()
 count = 0;
 print(Probility)
 
-fileA.write('B,D,D,D')
+fileA.write('B,'+RoomA+","+RoomB+","+RoomC+'\n\n')
 
-fileA.close()
+Rooms = [RoomA, RoomB, RoomC]
+point=0
+robotStanding = "B"
+
+def cleaning(robotStanding,RoomA,RoomB,RoomC,point,count):
+
+    if (robotStanding == "B"):
+        if (RoomB == "D"):
+            fileA.write("suck\n\n")
+            point += 1
+            RoomB = "C"
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+            count += 1
+    if (robotStanding == "A"):
+        if (RoomA == "D"):
+            fileA.write("suck\n\n")
+            point += 1
+            RoomA = "C"
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+            count += 1
+    if (robotStanding == "C"):
+        if (RoomC == "D"):
+            fileA.write("suck\n\n")
+            point += 1
+            RoomC = "C"
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+            count += 1
+    return robotStanding, RoomA, RoomB, RoomC, point, count
 
 while (count < 1000):
-    count = count + 1
+   robotStanding, RoomA, RoomB, RoomC, point, count = cleaning(robotStanding, RoomA, RoomB, RoomC, point, count)
+   count+=1

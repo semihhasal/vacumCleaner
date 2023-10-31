@@ -69,6 +69,7 @@ def movement(robotStanding, RoomA, RoomB, RoomC, count, comingFrom):
             count += 1
             comingFrom = "B"
             fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+        return robotStanding, RoomA, RoomB, RoomC, count, comingFrom
     if (robotStanding == "A"):
         if (comingFrom == "B"):
             fileA.write("right\n\n")
@@ -76,6 +77,7 @@ def movement(robotStanding, RoomA, RoomB, RoomC, count, comingFrom):
             count += 1
             comingFrom = "A"
             fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+        return robotStanding, RoomA, RoomB, RoomC, count, comingFrom
     if (robotStanding == "C"):
         if (comingFrom == "B"):
             fileA.write("left\n\n")
@@ -83,8 +85,7 @@ def movement(robotStanding, RoomA, RoomB, RoomC, count, comingFrom):
             count += 1
             comingFrom = "C"
             fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
-
-    return robotStanding, RoomA, RoomB, RoomC, count,comingFrom
+        return robotStanding, RoomA, RoomB, RoomC, count, comingFrom
 
 
 

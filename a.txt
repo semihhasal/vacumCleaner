@@ -8,2664 +8,2004 @@ right
 
 C,D,C,D
 
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
+suck
 
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
+C,D,C,C
 
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
-left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
-left
-
-B,D,C,D
-
 left
 
-A,D,C,D
+B,D,C,C
 
-right
-
-B,D,C,D
-
-right
-
-C,D,C,D
-
 left
 
-B,D,C,D
+A,D,C,C
 
-left
+suck
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
 
-C,D,C,D
+C,C,C,C
 
 left
 
-B,D,C,D
+B,C,C,C
 
 left
 
-A,D,C,D
+A,C,C,C
 
 right
 
-B,D,C,D
+B,C,C,C
 
 right
-
-C,D,C,D
 
-left
-
-B,D,C,D
+C,C,C,C
 
 left
-
-A,D,C,D
-
-right
-
-B,D,C,D
-
-right
 
-C,D,C,D
+B,C,C,C
 
 left
 
-B,D,C,D
+A,C,C,C
 
-1
+3

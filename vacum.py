@@ -16,14 +16,14 @@ Probility = random.random()
 count = 0;
 print(Probility)
 
-fileA.write('B,'+RoomA+","+RoomB+","+RoomC+'\n\n')
+fileA.write('B,' + RoomA + "," + RoomB + "," + RoomC + '\n\n')
 
-Rooms = [RoomA, RoomB, RoomC]
-point=0
+point = 0
 robotStanding = "B"
+comingFrom =  ""
 
-def cleaning(robotStanding,RoomA,RoomB,RoomC,point,count):
 
+def cleaning(robotStanding, RoomA, RoomB, RoomC, point, count):
     if (robotStanding == "B"):
         if (RoomB == "D"):
             fileA.write("suck\n\n")
@@ -47,6 +47,51 @@ def cleaning(robotStanding,RoomA,RoomB,RoomC,point,count):
             count += 1
     return robotStanding, RoomA, RoomB, RoomC, point, count
 
+
+def movement(robotStanding, RoomA, RoomB, RoomC, count, comingFrom):
+
+    if (robotStanding == "B"):
+        if (comingFrom == ""):
+            fileA.write("right\n\n")
+            robotStanding = "C"
+            count+=1
+            comingFrom = "B"
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+        if(comingFrom == "A"):
+            fileA.write("right\n\n")
+            robotStanding = "C"
+            count+=1
+            comingFrom = "B"
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+        if (comingFrom == "C"):
+            fileA.write("left\n\n")
+            robotStanding = "A"
+            count += 1
+            comingFrom = "B"
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+    if (robotStanding == "A"):
+        if (comingFrom == "B"):
+            fileA.write("right\n\n")
+            robotStanding = "B"
+            count += 1
+            comingFrom = "A"
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+    if (robotStanding == "C"):
+        if (comingFrom == "B"):
+            fileA.write("left\n\n")
+            robotStanding = "B"
+            count += 1
+            comingFrom = "C"
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+
+    return robotStanding, RoomA, RoomB, RoomC, count,comingFrom
+
+
+
 while (count < 1000):
-   robotStanding, RoomA, RoomB, RoomC, point, count = cleaning(robotStanding, RoomA, RoomB, RoomC, point, count)
-   count+=1
+    robotStanding, RoomA, RoomB, RoomC, point, count = cleaning(robotStanding, RoomA, RoomB, RoomC, point, count)
+    robotStanding, RoomA, RoomB, RoomC, count,comingFrom = movement(robotStanding, RoomA, RoomB, RoomC, count,comingFrom)
+    count += 1
+
+
+fileA.write(str(point))

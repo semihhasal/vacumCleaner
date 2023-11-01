@@ -15,6 +15,8 @@ Probility = random.random()
 
 count = 0;
 print(Probility)
+Probility=random.random()
+print(Probility)
 
 fileA.write('B,' + RoomA + "," + RoomB + "," + RoomC + '\n\n')
 
@@ -24,27 +26,43 @@ comingFrom =  ""
 
 
 def cleaning(robotStanding, RoomA, RoomB, RoomC, point, count):
+    Probility=random.random()
     if (robotStanding == "B"):
         if (RoomB == "D"):
             fileA.write("suck\n\n")
             point += 1
             RoomB = "C"
-            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             count += 1
+            Probility = random.random()
+        if(pA>Probility and RoomA=="C"):
+                RoomA="D"
+        if(pC>Probility and RoomC=="C"):
+                RoomC="D"
+        fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+
     if (robotStanding == "A"):
         if (RoomA == "D"):
             fileA.write("suck\n\n")
             point += 1
             RoomA = "C"
-            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             count += 1
+        if (pB > Probility and RoomB == "C"):
+                RoomB = "D"
+        if (pC > Probility and RoomC == "C"):
+                RoomC = "D"
+        fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
     if (robotStanding == "C"):
         if (RoomC == "D"):
             fileA.write("suck\n\n")
             point += 1
             RoomC = "C"
-            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             count += 1
+        if (pA > Probility and RoomA == "C"):
+                RoomA = "D"
+        if (pB > Probility and RoomB == "C"):
+                RoomB = "D"
+        fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+
     return robotStanding, RoomA, RoomB, RoomC, point, count
 
 

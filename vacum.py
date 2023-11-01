@@ -33,7 +33,6 @@ def cleaning(robotStanding, RoomA, RoomB, RoomC, point, count):
             point += 1
             RoomB = "C"
             count += 1
-            Probility = random.random()
         if(pA>Probility and RoomA=="C"):
                 RoomA="D"
         if(pC>Probility and RoomC=="C"):
@@ -74,18 +73,36 @@ def movement(robotStanding, RoomA, RoomB, RoomC, count, comingFrom):
             robotStanding = "C"
             count+=1
             comingFrom = "B"
+            if (pA > Probility and RoomA == "C"):
+                RoomA = "D"
+            if (pB > Probility and RoomB == "C"):
+                RoomB = "D"
+            if (pC > Probility and RoomC == "C"):
+                RoomC = "D"
             fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
         if(comingFrom == "A"):
             fileA.write("right\n\n")
             robotStanding = "C"
             count+=1
             comingFrom = "B"
+            if (pA > Probility and RoomA == "C"):
+                RoomA = "D"
+            if (pB > Probility and RoomB == "C"):
+                RoomB = "D"
+            if (pC > Probility and RoomC == "C"):
+                RoomC = "D"
             fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
         if (comingFrom == "C"):
             fileA.write("left\n\n")
             robotStanding = "A"
             count += 1
             comingFrom = "B"
+            if (pA > Probility and RoomA == "C"):
+                RoomA = "D"
+            if (pB > Probility and RoomB == "C"):
+                RoomB = "D"
+            if (pC > Probility and RoomC == "C"):
+                RoomC = "D"
             fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
         return robotStanding, RoomA, RoomB, RoomC, count, comingFrom
     if (robotStanding == "A"):

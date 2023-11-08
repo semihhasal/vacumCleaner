@@ -1,11 +1,12 @@
 import random
+import os
 
 RoomA = "D"
 RoomB = "D"
 RoomC = "D"
 
-fileA = open('C:/Users/Semih/PycharmProjects/vacumCleaner/a.txt', 'w')
-fileB = open('C:/Users/Semih/PycharmProjects/vacumCleaner/b.txt', 'w')
+fileA = open('./a.txt', 'w')
+fileB = open('./b.txt', 'w')
 
 pA = 0.3
 pB = 0.3

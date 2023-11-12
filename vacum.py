@@ -29,11 +29,20 @@ comingFrom =  ""
 def cleaning(robotStanding, RoomA, RoomB, RoomC, point, count):
     Probility=random.random()
     if (robotStanding == "B"):
-        if (RoomB == "D"):
+        while(RoomB == "D"):
             fileA.write("suck\n\n")
             point += 1
             RoomB = "C"
             count += 1
+            Probility = random.random()
+            while(pB>Probility):
+                RoomB = "D"  ## room dirty again
+                fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+                fileA.write("suck\n\n")
+                point += 1
+                RoomB = "C" ##clean again
+                count += 1
+                Probility = random.random()
         if(pA>Probility and RoomA=="C"):
                 RoomA="D"
         if(pC>Probility and RoomC=="C"):
@@ -41,22 +50,40 @@ def cleaning(robotStanding, RoomA, RoomB, RoomC, point, count):
         fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
 
     if (robotStanding == "A"):
-        if (RoomA == "D"):
+        while (RoomA == "D"):
             fileA.write("suck\n\n")
             point += 1
             RoomA = "C"
             count += 1
+            Probility = random.random()
+            while (pA > Probility):
+                RoomA = "D"  ## room dirty again
+                fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+                fileA.write("suck\n\n")
+                point += 1
+                RoomA = "C"  ##clean again
+                count += 1
+                Probility = random.random()
         if (pB > Probility and RoomB == "C"):
                 RoomB = "D"
         if (pC > Probility and RoomC == "C"):
                 RoomC = "D"
         fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
     if (robotStanding == "C"):
-        if (RoomC == "D"):
+        while (RoomC == "D"):
             fileA.write("suck\n\n")
             point += 1
             RoomC = "C"
             count += 1
+            Probility = random.random()
+            while (pC > Probility):
+                RoomC = "D"  ## room dirty again
+                fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+                fileA.write("suck\n\n")
+                point += 1
+                RoomC = "C"  ##clean again
+                count += 1
+                Probility = random.random()
         if (pA > Probility and RoomA == "C"):
                 RoomA = "D"
         if (pB > Probility and RoomB == "C"):

@@ -21,7 +21,7 @@ print(Probility)
 
 
 fileA.write(f"Step : {1} \n\n")
-fileA.write('B,' + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+
 
 point = 0
 countA=0
@@ -39,21 +39,23 @@ def cleaning(robotStanding, RoomA, RoomB, RoomC, point, count,countA,countC,dirt
 
     if (robotStanding == "B"):
         while(RoomB == "D"):
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             fileA.write("suck\n\n")
-            point += 1
             RoomB = "C"
+            RoomA, RoomB, RoomC, point = pointing(RoomA, RoomB, RoomC, point)
             count += 1
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             fileA.write(str(point) + "\n\n")
             fileA.write(f"Step : {count+1} \n\n")
             Probility = random.random()
-            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             while(pB>Probility):
                 RoomB = "D"  ## room dirty again
                 fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
                 fileA.write("suck\n\n")
-                point += 1
                 RoomB = "C" ##clean again
+                RoomA, RoomB, RoomC, point = pointing(RoomA, RoomB, RoomC, point)
                 count += 1
+                fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
                 fileA.write(str(point) + "\n\n")
                 fileA.write(f"Step : {count+1} \n\n")
                 Probility = random.random()
@@ -65,23 +67,26 @@ def cleaning(robotStanding, RoomA, RoomB, RoomC, point, count,countA,countC,dirt
 
     if (robotStanding == "A"):
         while (RoomA == "D"):
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             dirtyA += 1 ##count for ML
             fileA.write("suck\n\n")
-            point += 1
             RoomA = "C"
+            RoomA, RoomB, RoomC, point = pointing(RoomA, RoomB, RoomC, point)
             count += 1
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+            fileA.write(str(point) + "\n\n")
             fileA.write(f"Step : {count+1} \n\n")
             Probility = random.random()
-            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             while (pA > Probility):
                 RoomA = "D"  ## room dirty again
                 countA +=1  ## room need clean again
                 dirtyA +=1  ## room is dirty
                 fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
                 fileA.write("suck\n\n")
-                point += 1
                 RoomA = "C"  ##clean again
+                RoomA, RoomB, RoomC, point = pointing(RoomA, RoomB, RoomC, point)
                 count += 1
+                fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
                 fileA.write(str(point) + "\n\n")
                 fileA.write(f"Step : {count+1} \n\n")
                 Probility = random.random()
@@ -92,24 +97,26 @@ def cleaning(robotStanding, RoomA, RoomB, RoomC, point, count,countA,countC,dirt
 
     if (robotStanding == "C"):
         while (RoomC == "D"):
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             dirtyC += 1  ##count for ML
             fileA.write("suck\n\n")
-            point += 1
             RoomC = "C"
+            RoomA, RoomB, RoomC, point = pointing(RoomA, RoomB, RoomC, point)
             count += 1
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             fileA.write(str(point)+"\n\n")
             fileA.write(f"Step : {count+1} \n\n")
             Probility = random.random()
-            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             while (pC > Probility):
                 RoomC = "D"  ## room dirty again
                 countC += 1  ## room need clean again
                 dirtyC += 1  ## room is dirty
                 fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
                 fileA.write("suck\n\n")
-                point += 1
                 RoomC = "C"  ##clean again
+                RoomA, RoomB, RoomC, point = pointing(RoomA, RoomB, RoomC, point)
                 count += 1
+                fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
                 fileA.write(str(point)+"\n\n")
                 fileA.write(f"Step : {count+1} \n\n")
                 Probility = random.random()
@@ -122,15 +129,18 @@ def cleaning(robotStanding, RoomA, RoomB, RoomC, point, count,countA,countC,dirt
     return robotStanding, RoomA, RoomB, RoomC, point, count,countA,countC,dirtyA,dirtyC
 
 
-def movement(robotStanding, RoomA, RoomB, RoomC, count, comingFrom,countA,countC,dirtyA,dirtyC):
-
+def movement(robotStanding, RoomA, RoomB, RoomC,point,count,comingFrom,countA,countC,dirtyA,dirtyC):
+    Probility = random.random()
 
     if (robotStanding == "B" and count<=150):
         if (comingFrom == ""):
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             fileA.write("right\n\n")
             robotStanding = "C"
             countC+=1
             count+=1
+            RoomA, RoomB, RoomC, point = pointing(RoomA, RoomB, RoomC, point)
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             fileA.write(str(point)+"\n\n")
             fileA.write(f"Step : {count+1} \n\n")
             comingFrom = "B"
@@ -140,12 +150,14 @@ def movement(robotStanding, RoomA, RoomB, RoomC, count, comingFrom,countA,countC
                 RoomB = "D"
             if (pC > Probility and RoomC == "C"):
                 RoomC = "D"
-            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
         if(comingFrom == "A"):
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             fileA.write("right\n\n")
             robotStanding = "C"
             countC += 1
             count+=1
+            RoomA, RoomB, RoomC, point = pointing(RoomA, RoomB, RoomC, point)
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             fileA.write(str(point) + "\n\n")
             fileA.write(f"Step : {count+1} \n\n")
             comingFrom = "B"
@@ -155,12 +167,14 @@ def movement(robotStanding, RoomA, RoomB, RoomC, count, comingFrom,countA,countC
                 RoomB = "D"
             if (pC > Probility and RoomC == "C"):
                 RoomC = "D"
-            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
         if (comingFrom == "C"):
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             fileA.write("left\n\n")
             robotStanding = "A"
             countA += 1
             count += 1
+            RoomA, RoomB, RoomC, point = pointing(RoomA, RoomB, RoomC, point)
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             fileA.write(str(point)+"\n\n")
             fileA.write(f"Step : {count+1} \n\n")
             comingFrom = "B"
@@ -170,15 +184,17 @@ def movement(robotStanding, RoomA, RoomB, RoomC, count, comingFrom,countA,countC
                 RoomB = "D"
             if (pC > Probility and RoomC == "C"):
                 RoomC = "D"
-            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
-        return robotStanding, RoomA, RoomB, RoomC, count, comingFrom,countA,countC,dirtyA,dirtyC
+        return robotStanding, RoomA, RoomB, RoomC, point, count, comingFrom, countA, countC, dirtyA, dirtyC
 
     elif(robotStanding == "B" and count>150):
          if(countA-dirtyA > countC-dirtyC):
+             fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
              fileA.write("right\n\n")
              robotStanding = "C"
              countC += 1
              count += 1
+             RoomA, RoomB, RoomC, point = pointing(RoomA, RoomB, RoomC, point)
+             fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
              fileA.write(str(point) + "\n\n")
              fileA.write(f"Step : {count+1} \n\n")
              comingFrom = "B"
@@ -188,12 +204,15 @@ def movement(robotStanding, RoomA, RoomB, RoomC, count, comingFrom,countA,countC
                  RoomB = "D"
              if (pC > Probility and RoomC == "C"):
                 RoomC = "D"
-             fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
+
          else:
+             fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
              fileA.write("left\n\n")
              robotStanding = "A"
              countA += 1
              count += 1
+             RoomA, RoomB, RoomC, point = pointing(RoomA, RoomB, RoomC, point)
+             fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
              fileA.write(str(point) + "\n\n")
              fileA.write(f"Step : {count+1} \n\n")
              comingFrom = "B"
@@ -203,37 +222,54 @@ def movement(robotStanding, RoomA, RoomB, RoomC, count, comingFrom,countA,countC
                  RoomB = "D"
              if (pC > Probility and RoomC == "C"):
                  RoomC = "D"
-             fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
 
-         return robotStanding, RoomA, RoomB, RoomC, count, comingFrom, countA, countC, dirtyA, dirtyC
+
+         return robotStanding, RoomA, RoomB, RoomC, point, count, comingFrom, countA, countC, dirtyA, dirtyC
 
 
     if (robotStanding == "A"):
         if (comingFrom == "B"):
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             fileA.write("right\n\n")
             robotStanding = "B"
             count += 1
+            RoomA, RoomB, RoomC, point = pointing(RoomA, RoomB, RoomC, point)
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             fileA.write(str(point) + "\n\n")
             fileA.write(f"Step : {count + 1} \n\n")
             comingFrom = "A"
-            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
-        return robotStanding, RoomA, RoomB, RoomC, count, comingFrom,countA,countC,dirtyA,dirtyC
+
+        return robotStanding, RoomA, RoomB, RoomC, point, count, comingFrom, countA, countC, dirtyA, dirtyC
     if (robotStanding == "C"):
         if (comingFrom == "B"):
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             fileA.write("left\n\n")
             robotStanding = "B"
             count += 1
+            RoomA, RoomB, RoomC, point = pointing(RoomA, RoomB, RoomC, point)
+            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
             fileA.write(str(point) + "\n\n")
             fileA.write(f"Step : {count+1} \n\n")
             comingFrom = "C"
-            fileA.write(robotStanding + "," + RoomA + "," + RoomB + "," + RoomC + '\n\n')
-        return robotStanding, RoomA, RoomB, RoomC, count, comingFrom,countA,countC,dirtyA,dirtyC
 
+        return robotStanding, RoomA, RoomB, RoomC, point,count, comingFrom,countA,countC,dirtyA,dirtyC
+
+
+
+def pointing(RoomA,RoomB,RoomC,point):
+    if (RoomA=="C"):
+        point += 1
+    if (RoomB == "C"):
+        point += 1
+    if (RoomC == "C"):
+        point += 1
+
+    return  RoomA,RoomB,RoomC,point
 
 
 while (count < 999):
     robotStanding, RoomA, RoomB, RoomC, point, count, countA, countC, dirtyA, dirtyC = cleaning(robotStanding, RoomA, RoomB, RoomC, point, count,countA,countC,dirtyA,dirtyC)
-    robotStanding, RoomA, RoomB, RoomC, count, comingFrom,countA,countC,dirtyA,dirtyC = movement(robotStanding, RoomA, RoomB, RoomC, count,comingFrom,countA,countC,dirtyA,dirtyC)
+    robotStanding, RoomA, RoomB, RoomC,point,count, comingFrom,countA,countC,dirtyA,dirtyC = movement(robotStanding, RoomA, RoomB, RoomC, point,count,comingFrom,countA,countC,dirtyA,dirtyC)
 
 
 
